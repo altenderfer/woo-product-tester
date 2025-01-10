@@ -1,0 +1,151 @@
+/* Container */
+.wcpt-admin-container {
+    background: #fff;
+    padding: 20px;
+    border: 1px solid #ccc;
+    max-width: 900px;
+    margin-top: 20px;
+    border-radius: 6px;
+}
+
+.wcpt-admin-container h1 {
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.wcpt-admin-container h1 .material-icons {
+    margin-right: 8px;
+    font-size: 1.8rem;
+}
+
+.wcpt-admin-container form {
+    margin-bottom: 20px;
+}
+
+.wcpt-admin-container label {
+    display: block;
+    font-weight: 600;
+    margin: 10px 0 4px;
+}
+
+/* Inputs & Buttons (full width) */
+.wcpt-admin-container input,
+.wcpt-admin-container button {
+    width: 100%;
+    max-width: 100%; /* Full width */
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.wcpt-admin-container button .material-icons {
+    vertical-align: middle;
+    margin-right: 4px;
+}
+
+/* Spacing before the button stack */
+.wcpt-admin-container #wcpt-product-id-manual {
+    margin-bottom: 25px; /* 25px space above the button group */
+}
+
+/* Vertical stack for the three buttons with 15px gap */
+.wcpt-button-row {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+/* On-page test results container (scroll if wide) */
+.wcpt-test-output {
+    min-height: 50px;
+    background: #f9f9f9;
+    border: 1px solid #dfdfdf;
+    border-radius: 4px;
+    padding: 10px;
+    overflow-x: auto;
+}
+
+/* Card-like layout for single product + variations */
+.wcpt-test-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.wcpt-detail-card {
+    background: #fff;
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 6px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+}
+
+.wcpt-detail-card h2, .wcpt-detail-card h3 {
+    margin-top: 0;
+}
+
+.wcpt-detail-cols {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 10px;
+}
+
+.wcpt-detail-col {
+    flex: 1 1 250px;
+}
+
+.wcpt-detail-col ul {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+}
+
+.wcpt-detail-col li {
+    margin-bottom: 5px;
+}
+
+.wcpt-desc-section {
+    margin-top: 20px;
+    border-top: 1px solid #eee;
+    padding-top: 10px;
+}
+
+/* Variation highlight */
+.wcpt-variation-card {
+    border-left: 4px solid #007cba;
+}
+
+/* Awesomplete overrides */
+.awesomplete {
+    position: relative;
+    display: inline-block;
+    width: 100%!important;
+}
+
+.awesomplete ul {
+    background: #fff;
+    border: 1px solid #ccc;
+    max-height: 200px;
+    overflow-y: auto;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    position: absolute;
+    width: 100%;
+    z-index: 9999;
+}
+
+.awesomplete ul li {
+    padding: 8px;
+    cursor: pointer;
+}
+
+.awesomplete ul li:hover,
+.awesomplete ul li[aria-selected="true"] {
+    background: #007cba;
+    color: #fff;
+}
