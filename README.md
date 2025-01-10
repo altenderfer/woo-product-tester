@@ -66,7 +66,7 @@ Feel free to open an issue or submit a pull request if you encounter any bugs or
 
 ## License
 
-This plugin is open-sourced software licensed under the [MIT License.  
+This plugin is open-sourced software licensed under the MIT License.  
 
 ---
 
