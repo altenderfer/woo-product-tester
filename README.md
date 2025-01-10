@@ -82,4 +82,4 @@ Enjoy using **Woo Product Tester**!
 
 ### Screenshot
 
-![Woo Product Tester Screenshot](https://altenderfer.io/github/woo-product-tester_web.webp)
+![Woo Product Tester Screenshot](https://altenderfer.io/github/woo-product-tester-screenshot01_web.webp)
