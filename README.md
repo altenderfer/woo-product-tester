@@ -27,10 +27,6 @@ A **single-product WooCommerce tester** plugin for WordPress that logs and expor
   - Designed as a standard WordPress plugin.  
   - Works with any modern WooCommerce versions (3.x+).  
 
-## Screenshots
-
-*(Add or link to any screenshots, if available. E.g., show the Single Product Tester page.)*
-
 ## Requirements
 
 - **WordPress** 5.0 or higher  
